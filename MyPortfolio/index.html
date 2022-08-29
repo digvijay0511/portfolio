@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6d1eb55fce.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/lg3.png" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        
+        <div class="header-text">
+            <p>s/w Developer</p>
+            <h1>Hi, I am <span>Digvijay</span> <br> from India</h1>
+        </div>
+    </div>
+</div>
+             <!-- ------------About------------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1"><img src="images/user.png"></div>
+            <div class="about-col-2"><h1 class="sub-title">About me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt perferendis
+                 et officia cupiditate maxime, rerum debitis! Iure fugit impedit 
+                 libero id praesentium? Aliquid, inventore. Veritatis
+                  cupiditate porro itaque natus a!
+            </p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                <p class="tab-links"onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>      
+                 <li><span>UI/UX</span><br>Buildinging interfaces</li>
+                 <li><span>Web Development</span><br>Website development</li>
+                 <li><span>App Development</span><br>Building Android/IOS apps</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>      
+                 <li><span>2021-current</span><br>UI/UX Design traing at ET institute</li>
+                 <li><span>2019-2021</span><br>Team lead at Polaris Pvt. Ltd.</li>
+                 <li><span>2018-2019</span><br>Enternship at HomeFlic Wegrow pvt. ltd.</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>      
+                 <li><span>2018</span><br>UI/UX design traing at ET institute</li>
+                 <li><span>2018</span><br>MTech from Bits from Pune</li>
+                 <li><span>2016</span><br>BTech from GLA University Mathura</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------Services------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web designing</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, possimus asperiores quia tempore cum ab. Ipsam eveniet<br>
+                     accusantium, provident voluptas ad, ipsa voluptate sed dolorem in ex, quo ducimus accusamus velit unde magni at. Sit <br>
+                     sint, vel asperiores inventore dolorum suscipit exercitationem magni voluptatibus beatae harum laborum?<br>
+                      </p>
+                    <a href="#">Learn more</a>
+            </div>
+           
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Designing</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam molestias tempore voluptatum corrupti voluptates fugiat <br>
+                    voluptatem officiis ipsam ex, quos consequuntur excepturi nesciunt. Quidem odio quis adipisci laboriosam, labore<br>
+                    </p>
+                    <a href="#">Learn more</a>
+            </div>
+           
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App development</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias veniam eius blanditiis adipisci ipsam distinctio<br>
+                     veritatis impedit animi explicabo molestiae consequuntur nemo ipsa officiis dicta eaque, facilis ut maxime. <br>
+                     Vel ad dolore accusamus eveniet esse nostrum recusandae magnam sit! Reiciendis.</p>
+                    <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------------------Portfolio----------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-titlePort">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social media app</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Autem mollitia ut laudantium similique obcaecati repellat?
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music app</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Animi alias est aut aliquam, et officia.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online shopping web</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Explicabo nesciunt aliquam sint fugit? Quos, aut.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- -------------Contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h2 class="sub-title">Contact Me</h2>
+                <p><i class="fa-solid fa-square-phone-flip"></i>9119704187</p>
+                <p><i class="fa-solid fa-envelope"></i>digvijay.singh_cs19@gla.ac.in</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100004312158334"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/digvijay-singh-35813a1b6/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/digvijay.thakur_/s"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/digvijay0511"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="images/DigvijaySingh_Resume.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Enter your name" required>
+                    <input type="email" name="Email" placeholder="Enter your email" required>
+                    <textarea name="Message" rows="6" placeholder="Enter your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <div id="msg"></div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa-solid fa-copyright"></i> copyright @Digvijay Singh from DVS pvt. ltd.</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<!-- -----------------side menu working------------------ -->
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz-lPnkdsA48XutRp2Lqng-xrbNy63UPd9Kw-DJG_bx_sG--iTa9ZqTv_gUSaBZwl1tVg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout (function(){
+                msg.innerHTML=""
+            },5000)
+
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
